@@ -1,0 +1,76 @@
+.login-field .login-form{
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    padding: 9vh 14vh 6vh 14vh;
+    gap: 5vh;
+    box-shadow: 0px 4px 36px rgba(0, 0, 0, 0.25);
+    border-radius: 33px;
+    margin-bottom: 5vh;
+}
+
+.login-field .login-form form{
+    display: flex;
+    flex-direction: column;
+}
+
+.login-field .login-form .mail-section{
+    display: flex;
+    flex-direction: row;
+    gap: 3vh;
+}
+
+.login-field .login-form .pass-section{
+    display: flex;
+    flex-direction: row;
+    gap: 3.6vh;
+}
+
+.login-field .login-form input{
+    font-size: medium;
+    width: 25vw;
+    border-width: 0;
+    border-bottom: 1px solid #aaaaaa;
+}
+
+.login-field .login-form p{
+    color: #737373;
+    font-size: 15px;
+}
+
+.login-field .login-form .underline{
+    color:#36416A;
+    font-weight: 500;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.login-field .login-form button{
+    background-color: #36416A;
+    width: 7vw;
+    color: #fff;
+    border-radius: 27px;
+    padding: 1vh;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 80%;
+    font-weight: 500;
+    border-width: 0;
+}
+
+
+@media screen and (max-width : 900px) {
+    .login-field .login-form {
+        padding: 5vh 7vh 3vh 7vh;
+        margin-top: -2vh;
+    }
+
+    .login-field .login-form input{
+        width: 45vw;
+    }
+
+    .login-field .login-form button{
+        width: 16vw;    
+
+    }
+}

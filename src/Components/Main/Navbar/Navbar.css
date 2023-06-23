@@ -1,0 +1,53 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    background-color: #36416A;
+    position: fixed;
+}
+
+.navbar div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar .navbar-header{
+    padding: 1vw;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.navbar .navbar-loggedIn{
+    gap: 2vh;
+    padding-left: 3vh;
+}
+
+.navbar .navbar-logout-button{
+    cursor: pointer;
+}
+
+.navbar img{
+    padding-right: 2vh;
+    height: 3vw;
+}
+
+.navbar .navbar-tail{
+    padding-right: 2vw;
+    gap: 3vh;
+}
+
+.navbar .navbar-tail .navbar-login-button{
+    cursor: pointer;
+}
+
+.navbar .navbar-tail .navbar-signup-button{
+    border: 1px solid #fff;
+    padding: 0.5vh 2vh 0.5vh 2vh;
+    border-radius: 8px;
+    cursor: pointer;
+}

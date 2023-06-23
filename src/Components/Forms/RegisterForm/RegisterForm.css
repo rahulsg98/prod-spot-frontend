@@ -1,0 +1,93 @@
+.register-field .register-form{
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    padding: 9vh 14vh 6vh 14vh;
+    gap: 5vh;
+    box-shadow: 0px 4px 36px rgba(0, 0, 0, 0.25);
+    border-radius: 33px;
+    margin-bottom: 5vh;
+}
+
+.register-field .register-form form{
+    display: flex;
+    flex-direction: column;
+}
+
+.register-field .register-form .user-section{
+    display: flex;
+    flex-direction: row;
+    gap: 3vh;
+}
+
+.register-field .register-form .mail-section{
+    display: flex;
+    flex-direction: row;
+    gap: 3vh;
+}
+
+.register-field .register-form .mobile-section{
+    display: flex;
+    flex-direction: row;
+    gap: 3.6vh;
+}
+
+.register-field .register-form .pass-section{
+    display: flex;
+    flex-direction: row;
+    gap: 3.5vh;
+}
+
+.register-field .register-form input{
+    font-size: medium;
+    width: 25vw;
+    border-width: 0;
+    border-bottom: 1px solid #aaaaaa;
+}
+
+.register-field .register-form p{
+    color: #737373;
+    font-size: 15px;
+}
+
+.register-field .register-form .underline{
+    color:#36416A;
+    font-weight: 500;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.register-field .register-form button{
+    background-color: #36416A;
+    width: 7vw;
+    color: #fff;
+    border-radius: 27px;
+    padding: 1vh;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 80%;
+    font-weight: 500;
+    border-width: 0;
+}
+
+
+@media screen and (max-width : 900px) {
+    .register-field .title{
+        margin-left: 5vh;
+        margin-top: -5vh;
+    }
+
+    .register-field .register-form {
+        padding: 5vh 7vh 3vh 7vh;
+        margin-top: -2vh;
+    }
+
+    .register-field .register-form input{
+        width: 45vw;
+    }
+
+    .register-field .register-form button{
+        width: 18vw;    
+        justify-content: center;
+    }
+}

@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #36416A;
+}
+
+.container .title{
+    margin-bottom: 5vh;
+}
+
+.container h1{
+    color: #fff;
+    font-weight: 500;
+    font-size: 55px;
+
+}
+
+.container p{
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    word-wrap: normal;
+}
+
+@media screen and (max-width : 900px) {
+    .container .title{
+        margin-left: 5vh;
+        margin-top: -5vh;
+    }
+
+}
