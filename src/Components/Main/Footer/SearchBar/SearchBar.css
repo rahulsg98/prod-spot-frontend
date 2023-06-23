@@ -12,11 +12,11 @@
   .footer-header-left {
     display: flex;
     gap: 2rem;
+    align-items: center;
   }
   
   .products-list-length {
     font-weight: 700;
-    justify-content: center;
   }
   
   .custom-select {

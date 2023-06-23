@@ -90,6 +90,7 @@
     font-weight: 400;
     color: grey;
     margin-right: 20vw;
+    cursor: pointer;
   }
   
   .product-card-comment > img {
@@ -132,6 +133,7 @@
     border-radius: 50%;
     font-size: 1.5rem;
     font-weight: 500;
+    cursor: pointer;
   }
   
   .product-card-comments > span {
@@ -240,6 +242,7 @@
     .product-card-comment > img {
       height: 1rem;
       width: auto;
+      cursor: pointer;
     }
   
     .product-card-right {

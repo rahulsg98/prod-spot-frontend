@@ -29,7 +29,7 @@ const SearchBar = () => {
           {products.length} Suggestions
         </div>
         <div className="custom-select">
-          <span>Sort By:</span>
+          <span>Sort by:</span>
           <select value={selected} onChange={handleSortChange}>
             <option value="likes">Upvotes</option>
             <option value="commentCount">Comments</option>

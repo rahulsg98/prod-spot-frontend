@@ -3,12 +3,11 @@
     max-height: 30vh;
     width: 70vw;
     margin-left: 2vw;
-    /* background-color: rgba(54, 65, 106, 0.15); */
   }
   
   .add-comment-bar {
-    height: 6vh;
-    width: 62vw;
+    height: 7vh;
+    width: 66vw;
     display: flex;
     justify-content: center;
     align-items: center;
