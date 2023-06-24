@@ -10,6 +10,8 @@ import AddProductPopup from "../../Popups/AddProduct/AddProductPopup";
 import EditProductPopup from "../../Popups/EditProduct/EditProductPopup";
 import axios from "axios";
 import BASEURL from "../../../constants/base";
+import Lottie from 'lottie-react';
+import LoadingAnimation from '../../../assets/loading-files.json';
 
 const Footer = () => {
   const [innerWidth, setInnerWidth] = useState(window.innerWidth);
@@ -80,10 +82,10 @@ const Footer = () => {
       </div>
       <div className="footer-right">
         <SearchBar />
-        {innerWidth < 500 && <Filter />}
+        {innerWidth < 600 && <Filter />}
 
         {products.length === 0 ? (
-          <h1>No Product Available</h1>
+          <Lottie animationData={LoadingAnimation} loop={true} />
         ) : (
           products.map((product) => (
             <ProductCard key={product._id} data={product} />
