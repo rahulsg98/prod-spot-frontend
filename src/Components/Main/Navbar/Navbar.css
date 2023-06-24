@@ -33,7 +33,7 @@
 
 .navbar img{
     padding-right: 2vh;
-    height: 3vw;
+    height: 7vh;    
 }
 
 .navbar .navbar-tail{
@@ -50,4 +50,13 @@
     padding: 0.5vh 2vh 0.5vh 2vh;
     border-radius: 8px;
     cursor: pointer;
+}
+
+
+@media screen and (max-width: 600px) and (min-width: 200px) {
+
+    .navbar img{
+        height: 4vh;
+    }
+
 }
