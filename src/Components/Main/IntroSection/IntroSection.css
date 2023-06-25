@@ -3,10 +3,12 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    gap: 4vw;
 }
 
 .intro-section img{
     margin-top: 2vw;
+    margin-left: 2vw;
 }
 
 .intro-section .intro-section-text{
@@ -39,11 +41,20 @@
     .intro-section > img {
       height: auto;
       width: 100vw;
+      align-items: center;
     }
   
     .intro-section-text {
       height: auto;
       width: auto;
-      text-align: center;
+      padding-left: 2vh;
+
+    }
+    .intro-section-text .intro-section-text-1{
+      font-size: 25px;
+    }
+
+    .intro-section-text .intro-section-text-2{
+      font-size: 18px;
     }
   }

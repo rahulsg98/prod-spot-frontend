@@ -56,8 +56,14 @@
 
 @media screen and (max-width: 600px) and (min-width: 200px) {
 
+    .navbar{
+        height: 6vh;
+    }
     .navbar img{
-        height: 4vh;
+        height: 5vh;
+    }
+    .navbar-header{
+        margin-left: 1vh;
     }
 
 }

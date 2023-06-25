@@ -4,7 +4,7 @@
     align-items: center;
     border: 3px solid rgba(54, 65, 106, 0.35);
     height: 5vh;
-    width: 66vw;
+    width: 65vw;
     border-radius: 10px;
     padding: 3vh;
   }
@@ -71,7 +71,7 @@
     cursor: pointer;
   }
   
-@media (max-width: 500px) and (min-width: 200px)  {
+@media (max-width: 600px) and (min-width: 200px)  {
     .footer-bar {
         display: flex;
         justify-content: space-between;
